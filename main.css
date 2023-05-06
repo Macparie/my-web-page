@@ -1,0 +1,92 @@
+html {
+    font-size: 22 px;
+}
+ul>li{
+list-style: none; 
+display: inline;; margin: 0.8rem;
+}
+
+body {
+    background-color: rgba(82, 65, 65, 0.87);
+    color: whitesmoke;
+}
+.learn, .planning, .contact { 
+    font-size: xx-large; font-weight: 100;
+    font-family: Impact, 'Arial Narrow Bold', ;
+}
+.planning{
+    text-align: center;
+}
+.contact {
+text-align: right;
+}
+.hanty {
+line-height: 50px; font-weight: 300;
+ font-style: italic;
+ 
+ font-size: 40px; 
+ font-family: 'Gill Sans',;
+}
+.jok {
+    line-height: 50px; font-weight: 300;
+     font-style: italic;
+     border: 50px darkblue;
+     font-size: 40px; 
+     font-family: 'Gill Sans',;
+    }
+.uglintus {
+    float: right; margin: 10px;
+}
+footer {
+    clear: both;
+}
+a {
+    color: aliceblue;
+}
+
+a :visited{
+    color: rgb(160, 168, 140);
+}
+
+a :hover, a :active {
+    color: #eee;
+}
+
+table, tr, th, td, caption {
+border: 5px solid rgba(238, 238, 238, 0.664);
+font-family: 'Courier New', Courier, monospace;
+border-collapse: collapse; font-size: 40px;
+padding: 0.5rem;
+}
+
+.hantyy {
+    border: 3px solid rgb(132, 143, 134);
+}
+.joko { 
+    float: left; margin: 10px;
+}
+.vacate {
+    display: flex; flex-wrap: wrap; 
+    justify-content: center;
+}
+.naija {
+    font-family: tahoma;
+    font-size: 3rem; font-weight: 500; 
+}
+img:hover {
+    transition: all 2s; transform: scale(1.2);
+}
+details {
+    line-height: 50px; font-weight: 300;
+    font-style: italic;
+    border: 3px solid rgba(227, 228, 189, 0.075);
+    font-size: 40px; 
+    font-family: 'Gill Sans',;   
+}
+figcaption {
+    line-height: 50px; font-weight: 300;
+    font-style: bold;
+    
+    font-size: 40px; 
+    font-family: 'Gill Sans',;   
+}
